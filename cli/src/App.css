@@ -1,0 +1,703 @@
+/****LOGIN***/
+.form-login {
+  color: #000;
+  overflow-x: hidden;
+  height: 100%;
+  /* background-color: #b0bec5; */
+  background-color: #fffffc;
+  background-repeat: no-repeat;
+}
+
+.form-login .card0 {
+  box-shadow: 0px 4px 8px 0px #757575;
+  border-radius: 0px;
+}
+
+.form-login .card2 {
+  margin: 0px 40px;
+}
+
+.form-login .logo {
+  width: 200px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.form-login .image {
+  width: 360px;
+  height: 280px;
+}
+
+.form-login .border-line {
+  border-right: 1px solid #eeeeee;
+}
+
+.text-sm {
+  font-size: 14px !important;
+}
+
+.form-login ::placeholder {
+  color: #bdbdbd;
+  opacity: 1;
+  font-weight: 300;
+}
+
+.form-login :-ms-input-placeholder {
+  color: #bdbdbd;
+  font-weight: 300;
+}
+
+.form-login ::-ms-input-placeholder {
+  color: #bdbdbd;
+  font-weight: 300;
+}
+
+.form-login input,
+.form-login textarea {
+  padding: 10px 12px 10px 12px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  width: 90%;
+  box-sizing: border-box;
+  color: #2c3e50;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.form-login input:focus,
+.form-login textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #304ffe;
+  outline-width: 0;
+}
+
+.form-login button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+}
+
+.form-login a {
+  color: inherit;
+  cursor: pointer;
+}
+
+.form-login .btn-blue {
+  background-color: #1a237e;
+  width: 150px;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.form-login .btn-blue:hover {
+  background-color: #070e5a;
+  cursor: pointer;
+  color: #fff;
+}
+
+.form-login .bg-blue {
+  color: #fff;
+  background-color: #1a237e;
+}
+
+.gender-select {
+  width: 96%;
+}
+@media screen and (max-width: 991px) {
+  .form-login .logo {
+    margin-left: 0px;
+  }
+
+  .form-login .image {
+    width: 300px;
+    height: 220px;
+  }
+
+  .form-login.border-line {
+    border-right: none;
+  }
+
+  .form-login .card2 {
+    border-top: 1px solid #eeeeee !important;
+    margin: 0px 15px;
+  }
+}
+/*****REgistration**********/
+/* .button-info-text {
+  height: 40%;
+  border-radius: 50%;
+  position: absolute;
+  left: 77%;
+  top: 25%;
+} */
+.button-info-text {
+  height: 40%;
+  border-radius: 50%;
+  position: absolute;
+  left: 77%;
+  top: 25%;
+  padding: 2px 6px 6px 6px;
+  /* padding: 6px; */
+  border: 1px solid black;
+}
+/********HEADER*********/
+.navbar {
+  box-shadow: 4px 4px 20px #dadada !important;
+  background-color: #1a237eeb !important;
+}
+.nav-bar-links {
+  margin: 0 0 0 75%;
+}
+.nav-bar-home-links {
+  margin: 0 0 0 85%;
+}
+.navbar-light .navbar-brand {
+  color: rgb(255 255 247) !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(250 252 248) !important;
+}
+.MuiAutocomplete-inputRoot[class*="MuiInput-root"]
+  .MuiAutocomplete-input:first-child {
+  padding: 6px 0;
+  color: white !important;
+}
+.logo-image {
+  width: auto;
+  height: 60px;
+}
+.search-bar {
+  width: 150px;
+  margin: -17px 20px 0 0;
+}
+.search-bar .MuiAutocomplete-endAdornment {
+  display: none;
+}
+/**********PROFILE********************/
+/* Profile drop down */
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #28339ceb;
+  color: #fff !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-left: 7px !important;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.profileIcon {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.userName {
+  margin-left: 12%;
+}
+.dropdown .navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0) !important;
+}
+/**search**/
+.navbar .MuiInputLabel-animated {
+  color: white !important;
+}
+.navbar .MuiInput-underline:before {
+  border-bottom: 1px solid rgb(255 255 255 / 78%) !important;
+}
+.navbar .MuiInput-underline:after {
+  color: white !important;
+  border-bottom: 2px solid #c8cbe821 !important;
+}
+.navbar .MuiIconButton-label {
+  color: white !important;
+}
+/* Profile Page */
+.button-row {
+  margin-top: 5%;
+  margin-bottom: -8%;
+}
+.profile-page .h6,
+.profile-page h6 {
+  font-size: 0.75rem !important;
+  font-weight: 500;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+
+.name h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-page .page-header {
+  height: 380px;
+  background-position: center;
+}
+
+.page-header {
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  background-image: url("./assests//images/profile_background.jpg");
+}
+
+.main-raised {
+  margin: -60px 60px 0;
+  border-radius: 6px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+  background: #fff;
+  position: relative;
+  z-index: 3;
+}
+
+.profile-page .profile {
+  text-align: center;
+}
+
+.profile-page .profile img {
+  max-width: 160px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  -o-transform: translate3d(0, -50%, 0);
+  -ms-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+
+.img-raised {
+  box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24),
+    0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.img-fluid,
+.img-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  min-height: 32px;
+  color: #3c4858;
+  font-weight: 700;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  text-transform: uppercase;
+}
+
+.profile-page .description {
+  margin: 6% auto 0;
+  max-width: 600px;
+  color: #999;
+  font-weight: 350;
+}
+
+p {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.profile-page .profile-tabs {
+  margin-top: 4.284rem;
+}
+
+.tab-space {
+  padding: 0px 0 50px;
+}
+
+.profile-page .gallery {
+  margin-top: 3.213rem;
+  padding-bottom: 50px;
+}
+
+.profile-page .gallery img {
+  width: 100%;
+  margin-bottom: 2.142rem;
+}
+
+.profile-page .profile .name {
+  margin-top: -80px;
+}
+
+img.rounded {
+  border-radius: 6px !important;
+}
+
+.tab-content > .active {
+  display: block;
+}
+
+/*buttons*/
+.btn {
+  position: relative;
+  padding: 12px 30px;
+  margin: 0.3125rem 1px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.428571;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  border: 0;
+  border-radius: 0.2rem;
+  outline: 0;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+    background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: box-shadow, transform;
+}
+
+.btn.btn-just-icon {
+  font-size: 20px;
+  height: 41px;
+  min-width: 41px;
+  width: 41px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  line-height: 41px;
+}
+
+.btn.btn-just-icon fa {
+  margin-top: 0;
+  position: absolute;
+  width: 100%;
+  transform: none;
+  left: 0;
+  top: 0;
+  height: 100%;
+  line-height: 41px;
+  font-size: 20px;
+}
+.btn.btn-link {
+  background-color: transparent;
+  color: #999;
+}
+
+/* footer */
+
+footer {
+  margin-top: 10px;
+  color: #555;
+  padding: 25px;
+  font-weight: 300;
+}
+.footer p {
+  margin-bottom: 0;
+  font-size: 14px;
+  margin: 0 0 10px;
+  font-weight: 300;
+}
+footer p a {
+  color: #555;
+  font-weight: 400;
+}
+
+footer p a:hover {
+  color: #9f26aa;
+  text-decoration: none;
+}
+.input-group-prepend {
+  height: 42px;
+  margin-top: 2px;
+}
+#togglePassword {
+  position: absolute;
+  top: 15px;
+  right: 13%;
+  top: 15px;
+}
+.inputWithButton {
+  position: relative;
+  padding: 0px;
+}
+.passwordWrongIcon {
+  color: red;
+  width: 10%;
+  margin-top: 3%;
+  position: absolute;
+  padding-left: 11px;
+}
+.passwordCorrectIcon {
+  color: green;
+  width: 10%;
+  margin-top: 3%;
+  position: absolute;
+  padding-left: 11px;
+}
+.incorrectInput {
+  color: red;
+  width: 10%;
+  margin-top: 3%;
+}
+.correctInput {
+  color: green;
+  width: 10%;
+  margin-top: 3%;
+}
+/* Confirm alert */
+body.react-confirm-alert-body-element {
+  overflow: hidden;
+}
+
+.react-confirm-alert-blur {
+  filter: url(#gaussian-blur);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.react-confirm-alert-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.9);
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  opacity: 0;
+  -webkit-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+  -moz-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+  -o-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+  animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+}
+
+.react-confirm-alert-body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  padding: 30px;
+  text-align: left;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 75px rgba(0, 0, 0, 0.13);
+  color: #666;
+}
+
+.react-confirm-alert-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.react-confirm-alert-body > h1 {
+  margin-top: 0;
+}
+
+.react-confirm-alert-body > h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.react-confirm-alert-button-group {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.react-confirm-alert-button-group > button {
+  outline: none;
+  background: #333;
+  border: none;
+  display: inline-block;
+  padding: 6px 18px;
+  color: #eee;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+@keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*************************SCROLLBAR Starts*************************/
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1a237eeb;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #070c47eb;
+}
+/*************************SCROLLBAR ENDS*************************/
+/********************Media Responsive START********************/
+@media (min-width: 1501px) {
+  .nav-bar-links {
+    margin: 0 0 0 80%;
+  }
+}
+/*  desktop :1200px. */
+/* @media (min-width: 1200px) and (max-width: 1500px) {
+ 
+} */
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-bar-links {
+    margin: 0 0 0 65%;
+  }
+  .button-info-text {
+    left: 75%;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-bar-links {
+    margin: 0 0 0 0;
+  }
+  .dropdown:hover .dropdown-content {
+    margin-left: 1% !important;
+  }
+  .nav-bar-home-links {
+    margin: 0 0 0 0%;
+  }
+}
+
+/* Large mobile :320px. */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-bar-links {
+    margin: 0 0 0 0;
+  }
+  .dropdown:hover .dropdown-content {
+    margin-left: 2% !important;
+  }
+  .profile-page .description {
+    margin: 12% auto 0;
+  }
+  .passwordWrongIcon {
+    margin-top: 5%;
+  }
+  .passwordCorrectIcon {
+    margin-top: 5%;
+  }
+  .incorrectInput {
+    margin-top: 5%;
+  }
+  .correctInput {
+    margin-top: 5%;
+  }
+  .nav-bar-home-links {
+    margin: 0 0 0 0%;
+  }
+  .button-info-text {
+    left: 80%;
+  }
+}
+
+/* Small Mobile :480px. */
+@media only screen and (max-width: 575.98px) {
+  .nav-bar-links {
+    margin: 0 0 0 0;
+  }
+  .dropdown:hover .dropdown-content {
+    margin-left: 2% !important;
+  }
+  .profile-page .description {
+    margin: 15% auto 0;
+  }
+  .passwordWrongIcon {
+    margin-top: 5%;
+  }
+  .passwordCorrectIcon {
+    margin-top: 5%;
+  }
+  .incorrectInput {
+    margin-top: 5%;
+  }
+  .correctInput {
+    margin-top: 5%;
+  }
+  .nav-bar-home-links {
+    margin: 0 0 0 0%;
+  }
+  .button-row {
+    display: grid;
+  }
+  .withAuth\(Connect\(ViewUserProfile\)\)-button-2 {
+    margin: 13px 5px 0px 5px !important;
+  }
+}

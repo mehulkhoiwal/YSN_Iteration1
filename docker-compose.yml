@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: ./Dockerfile
+    image: "dmurphy1217/twitter-sentiment-api"
+    ports:
+      - "3001:3001"
+  frontend:
+    env_file:
+        "./cli/.env"
+    build:
+      context: ./cli
+      dockerfile: ./Dockerfile
+    image: "dmurphy1217/twitter-sentiment-frontend"
+    ports:
+      - "3000:3000"
+    links:
+      - "api:be"
