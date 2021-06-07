@@ -9,8 +9,6 @@ services:
     ports:
       - "3001:3001"
   frontend:
-    env_file:
-        "./cli/.env"
     build:
       context: ./cli
       dockerfile: ./Dockerfile
